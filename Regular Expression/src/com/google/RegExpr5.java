@@ -13,7 +13,7 @@ public class RegExpr5 {
 //		.(dot) represents a single character
 		Pattern pat = Pattern.compile("e.+d");
 		Matcher mat = pat.matcher("extend cup end table");
-		
+//		by default find() matches the longest sequence the fits the pattern
 		while(mat.find()) {
 			System.out.println("Match: "+mat.group());
 		}
