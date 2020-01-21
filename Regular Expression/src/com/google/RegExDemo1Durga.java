@@ -27,7 +27,7 @@ public class RegExDemo1Durga {
 		/*
 		 * start() -> start index of the match
 		 * end() -> end index of the match
-		 * group() -> which thing got matched
+		 * group() -> which thing got matched, it returns the matched pattern
 		 */
 	}
 }
